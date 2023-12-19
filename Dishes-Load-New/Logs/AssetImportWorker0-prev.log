@@ -1,0 +1,1986 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.30f1 (b4360d7cdac4) revision 11810317'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 16309 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.30f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/Projects Snack Gamer/Load-Dishes-New/Dishes-Load-New
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61004
+Successfully changed project path to: E:/Projects Snack Gamer/Load-Dishes-New/Dishes-Load-New
+E:/Projects Snack Gamer/Load-Dishes-New/Dishes-Load-New
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [25964] Host "[IP] 192.168.18.84 [Port] 0 [Flags] 2 [Guid] 698263822 [EditorId] 698263822 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-I0292P0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [25964] Host "[IP] 192.168.18.84 [Port] 0 [Flags] 2 [Guid] 698263822 [EditorId] 698263822 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-I0292P0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 226.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.30f1 (b4360d7cdac4)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Projects Snack Gamer/Load-Dishes-New/Dishes-Load-New/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 3GB (ID=0x1c02)
+    Vendor:   NVIDIA
+    VRAM:     2988 MB
+    Driver:   30.0.14.7111
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56620
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003819 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 114.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.670 seconds
+Domain Reload Profiling:
+	ReloadAssembly (670ms)
+		BeginReloadAssembly (98ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (483ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (104ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (310ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (115ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (117ms)
+				ProcessInitializeOnLoadMethodAttributes (69ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003773 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 116.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  3.204 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3205ms)
+		BeginReloadAssembly (121ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (2988ms)
+			LoadAssemblies (1318ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (322ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (1256ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (117ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (965ms)
+				ProcessInitializeOnLoadMethodAttributes (62ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4898 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (1.1 MB). Loaded Objects now: 5351.
+Memory consumption went from 195.2 MB to 194.1 MB.
+Total: 5.167500 ms (FindLiveObjects: 0.549300 ms CreateObjectMapping: 0.133700 ms MarkObjects: 3.648500 ms  DeleteObjects: 0.834700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 32614.177611 seconds.
+  path: Assets/Art-Side/URP/New EnvironmentLibrary.asset
+  artifactKey: Guid(bb829c9cda968ed48941a0680134737f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/URP/New EnvironmentLibrary.asset using Guid(bb829c9cda968ed48941a0680134737f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e4f83325cc245054c806c3e97093f3c') in 0.044030 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 13.194024 seconds.
+  path: Assets/Art-Side/Shader/FlatKit/FlatKit/[Readme].asset
+  artifactKey: Guid(56f504eeac6f64677b83cfa9ff99292a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Shader/FlatKit/FlatKit/[Readme].asset using Guid(56f504eeac6f64677b83cfa9ff99292a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd422b115198d775a4110fd12c35cbec') in 0.010988 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.445675 seconds.
+  path: Assets/Art-Side/Shader/FlatKit/FlatKit/[Render Pipeline] Universal (URP).unitypackage
+  artifactKey: Guid(41e59f562b69648719f2424c438758f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Shader/FlatKit/FlatKit/[Render Pipeline] Universal (URP).unitypackage using Guid(41e59f562b69648719f2424c438758f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7998192a5102386434dc751b52666562') in 0.029362 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 42.298909 seconds.
+  path: Assets/Art-Side/Prefabe/Base Area Plate.prefab
+  artifactKey: Guid(b54c37ccc2282e34092d4e82b1194287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Prefabe/Base Area Plate.prefab using Guid(b54c37ccc2282e34092d4e82b1194287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a88e9674a35bd81b55bc90fb96e1863d') in 0.164923 seconds 
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Art-Side/Prefabe/White Bg (1).prefab
+  artifactKey: Guid(3d73ea4c48d6cb44fa59512173b99eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Prefabe/White Bg (1).prefab using Guid(3d73ea4c48d6cb44fa59512173b99eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd64e5ce09206db76984e808d2b0376e5') in 0.060768 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Art-Side/Prefabe/Plate New.prefab
+  artifactKey: Guid(83402a63e51be2941a443e022e9187a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Prefabe/Plate New.prefab using Guid(83402a63e51be2941a443e022e9187a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '003e5b94571b3ed96babffa1e609cebe') in 1.092088 seconds 
+Number of asset objects unloaded after import = 198
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003469 seconds.
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <4f41070b52224a70bdc90f923c6b37de>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <4f41070b52224a70bdc90f923c6b37de>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <4f41070b52224a70bdc90f923c6b37de>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <4f41070b52224a70bdc90f923c6b37de>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <4f41070b52224a70bdc90f923c6b37de>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <4f41070b52224a70bdc90f923c6b37de>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <4f41070b52224a70bdc90f923c6b37de>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <4f41070b52224a70bdc90f923c6b37de>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <4f41070b52224a70bdc90f923c6b37de>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <4f41070b52224a70bdc90f923c6b37de>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <4f41070b52224a70bdc90f923c6b37de>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <4f41070b52224a70bdc90f923c6b37de>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.562 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1562ms)
+		BeginReloadAssembly (158ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1312ms)
+			LoadAssemblies (112ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (308ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (847ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (231ms)
+				ProcessInitializeOnLoadAttributes (528ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4733 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 74 unused Assets / (0.7 MB). Loaded Objects now: 5316.
+Memory consumption went from 189.5 MB to 188.8 MB.
+Total: 3.441800 ms (FindLiveObjects: 0.403200 ms CreateObjectMapping: 0.131600 ms MarkObjects: 2.488400 ms  DeleteObjects: 0.417100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (0.7 MB). Loaded Objects now: 5311.
+Memory consumption went from 95.3 MB to 94.6 MB.
+Total: 3.393800 ms (FindLiveObjects: 0.417300 ms CreateObjectMapping: 0.120600 ms MarkObjects: 2.448600 ms  DeleteObjects: 0.406600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003988 seconds.
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <4f41070b52224a70bdc90f923c6b37de>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <4f41070b52224a70bdc90f923c6b37de>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <4f41070b52224a70bdc90f923c6b37de>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <4f41070b52224a70bdc90f923c6b37de>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <4f41070b52224a70bdc90f923c6b37de>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <4f41070b52224a70bdc90f923c6b37de>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <4f41070b52224a70bdc90f923c6b37de>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <4f41070b52224a70bdc90f923c6b37de>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <4f41070b52224a70bdc90f923c6b37de>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <4f41070b52224a70bdc90f923c6b37de>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <4f41070b52224a70bdc90f923c6b37de>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <4f41070b52224a70bdc90f923c6b37de>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.489 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1490ms)
+		BeginReloadAssembly (189ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (1196ms)
+			LoadAssemblies (135ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (301ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (727ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (108ms)
+				ProcessInitializeOnLoadAttributes (537ms)
+				ProcessInitializeOnLoadMethodAttributes (68ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4728 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (0.7 MB). Loaded Objects now: 5314.
+Memory consumption went from 189.3 MB to 188.6 MB.
+Total: 3.346300 ms (FindLiveObjects: 0.438000 ms CreateObjectMapping: 0.136100 ms MarkObjects: 2.401700 ms  DeleteObjects: 0.369400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004759 seconds.
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <4f41070b52224a70bdc90f923c6b37de>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <4f41070b52224a70bdc90f923c6b37de>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <4f41070b52224a70bdc90f923c6b37de>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <4f41070b52224a70bdc90f923c6b37de>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <4f41070b52224a70bdc90f923c6b37de>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <4f41070b52224a70bdc90f923c6b37de>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <4f41070b52224a70bdc90f923c6b37de>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <4f41070b52224a70bdc90f923c6b37de>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <4f41070b52224a70bdc90f923c6b37de>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <4f41070b52224a70bdc90f923c6b37de>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <4f41070b52224a70bdc90f923c6b37de>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <43dde5ac27db4df5839cefe518272cbb>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <4f41070b52224a70bdc90f923c6b37de>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.458 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1459ms)
+		BeginReloadAssembly (183ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (1174ms)
+			LoadAssemblies (129ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (288ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (720ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (532ms)
+				ProcessInitializeOnLoadMethodAttributes (65ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4726 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (0.7 MB). Loaded Objects now: 5317.
+Memory consumption went from 189.5 MB to 188.8 MB.
+Total: 4.141700 ms (FindLiveObjects: 0.761100 ms CreateObjectMapping: 0.144900 ms MarkObjects: 2.819000 ms  DeleteObjects: 0.415400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 50.155992 seconds.
+  path: Assets/Art-Side/Textures/Down Plat.png
+  artifactKey: Guid(2bb3fe44f40eddd4b912ab87521e0d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Textures/Down Plat.png using Guid(2bb3fe44f40eddd4b912ab87521e0d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0d102444fcdc0406b6ce9ab89eac773') in 0.078227 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Art-Side/Textures/plates Clear.png
+  artifactKey: Guid(c5995fbce327f0d458a4fc5c38dde360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Textures/plates Clear.png using Guid(c5995fbce327f0d458a4fc5c38dde360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c1df7a6f9e590fc9c08475ae5293cf9') in 0.077618 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Art-Side/Textures/plates Altas Dust.png
+  artifactKey: Guid(3cbcf3fdffffb3748988110c21c1912f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Textures/plates Altas Dust.png using Guid(3cbcf3fdffffb3748988110c21c1912f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3149c9dbc450eab43a2eabccfdd6710') in 0.019216 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Art-Side/Textures/Wash.png
+  artifactKey: Guid(a54eba504c1b891449137f88cb32c60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Textures/Wash.png using Guid(a54eba504c1b891449137f88cb32c60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f61958b8a0548a878c3b4348edc8885') in 0.037386 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 6.255289 seconds.
+  path: Assets/Art-Side/Textures/New Universal Render Pipeline Asset_Renderer.asset
+  artifactKey: Guid(4e334faa50dc3274d88247a33ae387ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Textures/New Universal Render Pipeline Asset_Renderer.asset using Guid(4e334faa50dc3274d88247a33ae387ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85809067e276bfb9115e03d49f2792a3') in 0.045431 seconds 
+Number of asset objects unloaded after import = 47
+========================================================================
+Received Import Request.
+  Time since last request: 5.384806 seconds.
+  path: Assets/Art-Side/Ui/2.png
+  artifactKey: Guid(5c4e4589edbaa8a4e9a44f48e34b8165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/2.png using Guid(5c4e4589edbaa8a4e9a44f48e34b8165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9b0bd9e04bd0e2104ad707d2c8f56a9') in 0.042077 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Art-Side/Ui/Btn_MenuButton_Rectangle02.png
+  artifactKey: Guid(b5d3e7782d597ec44bfc7505064f72df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/Btn_MenuButton_Rectangle02.png using Guid(b5d3e7782d597ec44bfc7505064f72df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c7fde80164820af60e3dc74bb7bc1b6') in 0.020423 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Art-Side/Ui/8_Badge_Pearl_Blank.png
+  artifactKey: Guid(f63fd863406cf66419fd588bc9569715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/8_Badge_Pearl_Blank.png using Guid(f63fd863406cf66419fd588bc9569715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c352491d166aeb1e6701105c91deb13') in 0.045517 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Art-Side/Ui/BG08.png
+  artifactKey: Guid(f431e18f2c736e340a848d1ca6f8f0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/BG08.png using Guid(f431e18f2c736e340a848d1ca6f8f0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ca700cd97498d56f1a409ce6f061cf5') in 0.066729 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Art-Side/Ui/37438.png
+  artifactKey: Guid(9d680ed17f8e3c84d8863939c939d6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/37438.png using Guid(9d680ed17f8e3c84d8863939c939d6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c03c246a2767baaf1af5996ca6eaafb') in 0.094696 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Art-Side/Ui/btn_blue_hover.png
+  artifactKey: Guid(e54f0f706566dee42b1f8c38933f37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/btn_blue_hover.png using Guid(e54f0f706566dee42b1f8c38933f37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68f2906eccc7648f7fb31c7efe144c5b') in 0.020877 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Art-Side/Ui/Btn_Rectangle00_n_Blue.png
+  artifactKey: Guid(0ca7fbf42e25c1f4093a9e4b952af6be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/Btn_Rectangle00_n_Blue.png using Guid(0ca7fbf42e25c1f4093a9e4b952af6be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45769d2cf155ccc8cafa9f3276aeeb21') in 0.021484 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Art-Side/Ui/BG02.png
+  artifactKey: Guid(2eefff45f351ea74b9eb59d767742c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/BG02.png using Guid(2eefff45f351ea74b9eb59d767742c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '362fa350b1fd90005ea503d6861aaedc') in 0.036485 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Art-Side/Ui/btn_purple.png
+  artifactKey: Guid(2496bf0909548f14aaf49fba6aec5742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/btn_purple.png using Guid(2496bf0909548f14aaf49fba6aec5742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aca1a33d1287ebaec4534a345aee5b4') in 0.019718 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Art-Side/Ui/10_Badge_Obsidian_Blank.png
+  artifactKey: Guid(f05ef720699673c4f99489fa02b8e5a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/10_Badge_Obsidian_Blank.png using Guid(f05ef720699673c4f99489fa02b8e5a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '475a27fe29083018b674106a915882bd') in 0.023320 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Art-Side/Ui/9_Badge_Amethyst_Blank.png
+  artifactKey: Guid(bd62d1a249fecc54f9f6d23a5241a66c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/9_Badge_Amethyst_Blank.png using Guid(bd62d1a249fecc54f9f6d23a5241a66c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bce2ef4be47a41e9cc02c9e63f2da261') in 0.019821 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Art-Side/Ui/Btn_Rectangle02_Blue.png
+  artifactKey: Guid(4790f90c6afc83d4398f78101fcd4be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/Btn_Rectangle02_Blue.png using Guid(4790f90c6afc83d4398f78101fcd4be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '675ee044d1a231f9c2f5f34b85093695') in 0.022639 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Art-Side/Ui/41834406.png
+  artifactKey: Guid(bc46598976ea724449eb937cd6c877ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/41834406.png using Guid(bc46598976ea724449eb937cd6c877ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6a1ce1e0fada857ef6d6f6e12ebbb0a') in 0.056313 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Art-Side/Ui/BPreplayBold SDF Atlas.png
+  artifactKey: Guid(98c85d8a9587c304ba98e87c02e8f154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/BPreplayBold SDF Atlas.png using Guid(98c85d8a9587c304ba98e87c02e8f154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a568454cfb28ead6c8526f7880a2f13c') in 0.146163 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Art-Side/Ui/Btn_IconButton_Circle_105.png
+  artifactKey: Guid(99f4ef0e7db915e4492b660d33331aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/Btn_IconButton_Circle_105.png using Guid(99f4ef0e7db915e4492b660d33331aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c330df05d08e2aef80f23cc638af2602') in 0.044560 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Art-Side/Ui/2e1f140fc057d63597e7ea9f671e367e.png
+  artifactKey: Guid(faae9e8be7062e947b853c9667e7671c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/2e1f140fc057d63597e7ea9f671e367e.png using Guid(faae9e8be7062e947b853c9667e7671c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd71ed8fcd0c2a3dd89d598603ac7641b') in 0.022216 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Art-Side/Ui/3_Badge_Gold_Blank.png
+  artifactKey: Guid(0f0b0722adc1f9b4e8567cc86d653c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/3_Badge_Gold_Blank.png using Guid(0f0b0722adc1f9b4e8567cc86d653c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf027f754c7c208e29f27f2544c293f1') in 0.021395 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Art-Side/Ui/Btn_IconButton_Circle_90_purple.png
+  artifactKey: Guid(724715a94c605214db1f57c40fbb8788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/Btn_IconButton_Circle_90_purple.png using Guid(724715a94c605214db1f57c40fbb8788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22d66e1d39568664026ddf854d185fcc') in 0.017458 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Art-Side/Ui/Background_image.png
+  artifactKey: Guid(0d6cb1ceb7861f145b2cec813d49ba09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/Background_image.png using Guid(0d6cb1ceb7861f145b2cec813d49ba09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd73dbf10d18edc8f0ab53fe393418596') in 0.060933 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art-Side/Ui/Btn_Rectangle00_n_Gray.png
+  artifactKey: Guid(2389dd8fbf4b24448b5500aa80da9042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/Btn_Rectangle00_n_Gray.png using Guid(2389dd8fbf4b24448b5500aa80da9042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d7a9b5cd4bb4919cdb45e1b6e33420f') in 0.019713 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Art-Side/Ui/Background_0.png
+  artifactKey: Guid(09dff2a39d83b0a4c914cd4a5b6c50d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/Background_0.png using Guid(09dff2a39d83b0a4c914cd4a5b6c50d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0e1e1a151a5743943cf244c13a333d7') in 0.025445 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Art-Side/Ui/Btn_Rectangle00_n_Yellow.png
+  artifactKey: Guid(0c956efca31f8b4428c65b457cd74e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/Btn_Rectangle00_n_Yellow.png using Guid(0c956efca31f8b4428c65b457cd74e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '699e20672d0501c14e3f306c5f675e73') in 0.015898 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Art-Side/Ui/133_Beech fine wood PBR texture-seamless.png
+  artifactKey: Guid(66bca5bbedb8127489eec0a6b6697fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/133_Beech fine wood PBR texture-seamless.png using Guid(66bca5bbedb8127489eec0a6b6697fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5615c3affa7937fd259ebb7295f4791') in 0.067611 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Art-Side/Ui/BoardUnlockRank4.png
+  artifactKey: Guid(1e3ed25e6b477f0439f50c21c33abbbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/BoardUnlockRank4.png using Guid(1e3ed25e6b477f0439f50c21c33abbbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '608626304c687e67a32f1dcb4c699338') in 0.021608 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Art-Side/Ui/AreaTex.png
+  artifactKey: Guid(b0f6aa02cc957de4d806b9f11e116cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/AreaTex.png using Guid(b0f6aa02cc957de4d806b9f11e116cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47ef3fdf5746283fcc5d50fb0778f08d') in 0.039329 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Art-Side/Ui/Background.png
+  artifactKey: Guid(e046b1e4e5a7fca4fad1ba610cabd386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/Background.png using Guid(e046b1e4e5a7fca4fad1ba610cabd386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5acf28b52bd878a770a4ec7ab24dd14d') in 0.025712 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Art-Side/Ui/BasicFrame_Circle_337_White.png
+  artifactKey: Guid(ddcef9ad0a7e00344a9894f82f10d3fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/BasicFrame_Circle_337_White.png using Guid(ddcef9ad0a7e00344a9894f82f10d3fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b621ff79a9a384fe771789eb04480429') in 0.077161 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 5.053973 seconds.
+  path: Assets/Art-Side/Ui/btn_white_round.png
+  artifactKey: Guid(4fe8f66c0fcaa2d4d9c0f3ab0adf6661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/btn_white_round.png using Guid(4fe8f66c0fcaa2d4d9c0f3ab0adf6661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da30f777c3eddc6d822eb1c3db1e096f') in 0.018589 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Art-Side/Ui/Button-Disabled.png
+  artifactKey: Guid(f78ba3b0b8308ee4fb6b12dd32e3f99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/Button-Disabled.png using Guid(f78ba3b0b8308ee4fb6b12dd32e3f99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98cfd553c4a8f797ffb45702bfa0d8b5') in 0.033513 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Art-Side/Ui/Button-Pressed.png
+  artifactKey: Guid(60021f2fc9a09644a8eec359d8748701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/Button-Pressed.png using Guid(60021f2fc9a09644a8eec359d8748701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6249eec691db7bd1ea5c3ab431d0ab35') in 0.030755 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Art-Side/Ui/CapacitySlider-Frame.png
+  artifactKey: Guid(5532b2d76489d3744889bd2aa5ed744c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/CapacitySlider-Frame.png using Guid(5532b2d76489d3744889bd2aa5ed744c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff05b5b2572f1ff0d73340698d492b03') in 0.019155 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Art-Side/Ui/Challenge-Map.png
+  artifactKey: Guid(69d34a40e6c59c5429aad91f7dcb73ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/Challenge-Map.png using Guid(69d34a40e6c59c5429aad91f7dcb73ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '453e4212c76ca8c7965bdddd36460f1e') in 0.041736 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Art-Side/Ui/CardLego.png
+  artifactKey: Guid(cf1c743d873a09640bcbbdf03dd4ef85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/CardLego.png using Guid(cf1c743d873a09640bcbbdf03dd4ef85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37d8682e7b7be51f4cbb11695c5188c8') in 0.033893 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Art-Side/Ui/card pack-single-diamond-outline.png
+  artifactKey: Guid(fc8a72188020d6847a5a63855f9b12fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/card pack-single-diamond-outline.png using Guid(fc8a72188020d6847a5a63855f9b12fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8bd8efb8f3cb72bc0fe3362b2fb4e17') in 0.066927 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.155840 seconds.
+  path: Assets/Art-Side/Ui/ChallengeRank1.png
+  artifactKey: Guid(25a739ac7aa778c4888a58ecc0abc5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/ChallengeRank1.png using Guid(25a739ac7aa778c4888a58ecc0abc5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cf975666a830f38ec74bb804f77cf47') in 0.023979 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Art-Side/Ui/chest_2k.png
+  artifactKey: Guid(5a75e4b68d3bcc24e8f66d0dceff19ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/chest_2k.png using Guid(5a75e4b68d3bcc24e8f66d0dceff19ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f3e6aaab31bc1ded5a449a14fe4bcb5') in 0.060061 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Art-Side/Ui/Circle05.png
+  artifactKey: Guid(1b6a287742d10f84d89bedc6e4c3b4bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/Circle05.png using Guid(1b6a287742d10f84d89bedc6e4c3b4bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55002508a8d1208309047254ec9ba0fb') in 0.022174 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art-Side/Ui/check_icon.png
+  artifactKey: Guid(34476893eb81e464aa34f3e84e9784fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/check_icon.png using Guid(34476893eb81e464aa34f3e84e9784fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a0340e2220c80c20ecb98040fa0cddd') in 0.058721 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Art-Side/Ui/close-3784208.png
+  artifactKey: Guid(3525fe27d5faab544bd9f6e6f44721c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/close-3784208.png using Guid(3525fe27d5faab544bd9f6e6f44721c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '535f519bfec40ca3c15c4e3500615390') in 0.038346 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Art-Side/Ui/Circle02.png
+  artifactKey: Guid(bcecd947b73183a478cc01999b6442be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/Circle02.png using Guid(bcecd947b73183a478cc01999b6442be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85b4dd2d8889be3271bc9d3e6b357b0f') in 0.016417 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Art-Side/Ui/coin2.png
+  artifactKey: Guid(7688fbc6e861711408d274f38352d939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/coin2.png using Guid(7688fbc6e861711408d274f38352d939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09ba4032908af36e0d7cd3b0ba3c2c72') in 0.020128 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Art-Side/Ui/CollectionRank2.png
+  artifactKey: Guid(ae8c10edee9fd9e41b2a60ddff294a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/CollectionRank2.png using Guid(ae8c10edee9fd9e41b2a60ddff294a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fe233289045376c3177ec360fe9a244') in 0.043736 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Art-Side/Ui/CollectorSlider-Fill.png
+  artifactKey: Guid(e51d769fdb0bc7d46870c695e4c817b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/CollectorSlider-Fill.png using Guid(e51d769fdb0bc7d46870c695e4c817b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ae9b809fb918736088c0c886b1784a7') in 0.100020 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Art-Side/Ui/Coin-Gold.png
+  artifactKey: Guid(56c2eab4f0df01c43860bae19340e31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/Coin-Gold.png using Guid(56c2eab4f0df01c43860bae19340e31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '988cbe5a9de06a18a8ffd4ef34d5490c') in 0.021548 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Art-Side/Ui/CollectionRank5.png
+  artifactKey: Guid(67392a29afaf7654f9f347490a9cdf74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/CollectionRank5.png using Guid(67392a29afaf7654f9f347490a9cdf74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc51a48a475bd18160315a6c1ab540db') in 0.024374 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Art-Side/Ui/DeckUnlockRank2.png
+  artifactKey: Guid(0726eba0154f8da42bfd2ce5ef82772c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/DeckUnlockRank2.png using Guid(0726eba0154f8da42bfd2ce5ef82772c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6b4e6e2592f3bd0cb1b7fc28373df31') in 0.021537 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Art-Side/Ui/CollectorTexture-Level25.png
+  artifactKey: Guid(103af0c9557fc7f4d915aea6597dd455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/CollectorTexture-Level25.png using Guid(103af0c9557fc7f4d915aea6597dd455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ad9e5f03eb68cea778c280df7095665') in 0.182362 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Art-Side/Ui/fire_ground_soft3x3.png
+  artifactKey: Guid(d9872132f4d231d4a8531e03a190f9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/fire_ground_soft3x3.png using Guid(d9872132f4d231d4a8531e03a190f9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88995c0e8719a5d78c4fe13abd3b3a37') in 0.114225 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Art-Side/Ui/fig.png
+  artifactKey: Guid(ca872b47370f4984fa9792cbe388fd55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/fig.png using Guid(ca872b47370f4984fa9792cbe388fd55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80cb9f6e13ea9f40a451a8819278574c') in 0.068645 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Art-Side/Ui/Gem-Blue.png
+  artifactKey: Guid(24338cb9fb154244bb7c5362cb8c2972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/Gem-Blue.png using Guid(24338cb9fb154244bb7c5362cb8c2972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12068a70e3445715682baa391edcf4ba') in 0.023643 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Art-Side/Ui/CollectionRank1.png
+  artifactKey: Guid(5b479e993edeb32458217dbf6c36cae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/CollectionRank1.png using Guid(5b479e993edeb32458217dbf6c36cae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8b3a276060d99fd1731caad55264e8b') in 0.046674 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Art-Side/Ui/CollectorTexture-Level30.png
+  artifactKey: Guid(0f2122ef29c689243bb43cc0a04107e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/CollectorTexture-Level30.png using Guid(0f2122ef29c689243bb43cc0a04107e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8843e9c4b1101717ab292a1b7cc4731') in 0.101120 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Art-Side/Ui/DeckUnlockRank5.png
+  artifactKey: Guid(ff3eeddafb99d7d4eaeb6a247768df4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/DeckUnlockRank5.png using Guid(ff3eeddafb99d7d4eaeb6a247768df4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9f51f5fd5b4c547d6b3f2ef831b6343') in 0.022199 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Art-Side/Ui/CollectorUpgradeRank1.png
+  artifactKey: Guid(d00d47e9be6cf7446b9bec77f3849b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/CollectorUpgradeRank1.png using Guid(d00d47e9be6cf7446b9bec77f3849b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd90288676d0e030d265ac061ab55db3e') in 0.021288 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Art-Side/Ui/CollectorUpgradeRank2.png
+  artifactKey: Guid(be2af6d2b3ed2784ba03ce444353f527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/CollectorUpgradeRank2.png using Guid(be2af6d2b3ed2784ba03ce444353f527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '387a640767c0b41794e3de764af12f5e') in 0.020152 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Art-Side/Ui/Image_Effect_Sparkle.png
+  artifactKey: Guid(7258d62ed38ecab43a6d0f7f7975369b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/Image_Effect_Sparkle.png using Guid(7258d62ed38ecab43a6d0f7f7975369b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a07729a55570c2a5a3a6efcd2abdd018') in 0.025501 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Art-Side/Ui/Lock.png
+  artifactKey: Guid(16e6e99c5a7a77243972afd6ee7983dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/Lock.png using Guid(16e6e99c5a7a77243972afd6ee7983dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4efaa871a95ee71714da26cce9d536d') in 0.124052 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Art-Side/Ui/IconGroup_ShopIcon_Coin_l_2.png
+  artifactKey: Guid(9330c59564cbdc841bb9239c2bce9e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/IconGroup_ShopIcon_Coin_l_2.png using Guid(9330c59564cbdc841bb9239c2bce9e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd82886db648173860e4565140ee8d2a') in 0.051900 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Art-Side/Ui/Label_Ribbon00_Color_Orange.png
+  artifactKey: Guid(1f5d28739875807418b0d1fde43ee372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/Label_Ribbon00_Color_Orange.png using Guid(1f5d28739875807418b0d1fde43ee372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b27a2047f74ed92cd691c5fba9e4747') in 0.022693 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Art-Side/Ui/Label_Tag00_n_Green.png
+  artifactKey: Guid(6ef0029ba4cf1094291f95eb31ce3f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/Label_Tag00_n_Green.png using Guid(6ef0029ba4cf1094291f95eb31ce3f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54b654bae74b203ad6849748a5a3154d') in 0.021433 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Art-Side/Ui/info.png
+  artifactKey: Guid(faf5d4004d3e93441bfb293aaaff64eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/info.png using Guid(faf5d4004d3e93441bfb293aaaff64eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbfc20722a3f92c080280fb0d9b6168a') in 0.055566 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Art-Side/Ui/Image_Effect_Rainbow_DemoSample1.png
+  artifactKey: Guid(1e5a1b68fff9d3f479a175aecbe086be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/Image_Effect_Rainbow_DemoSample1.png using Guid(1e5a1b68fff9d3f479a175aecbe086be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84f59058328343c7e63e91c6f583bdb5') in 0.060161 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Art-Side/Ui/itemicon_gem_purple.png
+  artifactKey: Guid(3e8f6a4bfad3afb47a296647071d613d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/itemicon_gem_purple.png using Guid(3e8f6a4bfad3afb47a296647071d613d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de63101cb2bfd2306227cc8893c9980f') in 0.018795 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Art-Side/Ui/icon_lock-locked.png
+  artifactKey: Guid(d5804daf8a7002b488babf18f80ee4c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/icon_lock-locked.png using Guid(d5804daf8a7002b488babf18f80ee4c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b15c4f1a31d7db0dea63865981bd0fc3') in 0.031501 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Art-Side/Ui/Map Avatar Pointer Girl.png
+  artifactKey: Guid(a9fc390ff0c102948973560abe7fdeb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/Map Avatar Pointer Girl.png using Guid(a9fc390ff0c102948973560abe7fdeb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '733b350b538dd5cef9883a2eabb3490c') in 0.052894 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Art-Side/Ui/Popup01_Frame1.png
+  artifactKey: Guid(e36a6e4348708584887d5ce6f60f17cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/Popup01_Frame1.png using Guid(e36a6e4348708584887d5ce6f60f17cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63a6f4227c456f733f79ee356f8e902e') in 0.053568 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Art-Side/Ui/Llabel_Tag01.png
+  artifactKey: Guid(b44142c689feb194799cd14e8530194b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/Llabel_Tag01.png using Guid(b44142c689feb194799cd14e8530194b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aa386a2aac7d0971b55aa0ba938b75e') in 0.057929 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Art-Side/Ui/Icon_ColorIcon_Tv03_l.png
+  artifactKey: Guid(031c3b28d27ca0144a5f81e5eb8bde65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/Icon_ColorIcon_Tv03_l.png using Guid(031c3b28d27ca0144a5f81e5eb8bde65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccc8693e37dd94289c333f734887288d') in 0.058506 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Art-Side/Ui/power-up-frame-magnet-purchase.png
+  artifactKey: Guid(1c78a5ea830524a4499393afc7150ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/power-up-frame-magnet-purchase.png using Guid(1c78a5ea830524a4499393afc7150ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d8a018846aefa32a65db491d8a2d32a') in 0.095949 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Art-Side/Ui/Label_Tag01_Color_Orange.png
+  artifactKey: Guid(fc3dbb8651fc3464786c2ae267bd9b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/Label_Tag01_Color_Orange.png using Guid(fc3dbb8651fc3464786c2ae267bd9b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80e79f2099d8b7c9883f08c2f072b8a2') in 0.018212 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Art-Side/Ui/Lock-Yellow.png
+  artifactKey: Guid(fe468cf565b1e114bb1b70dc1f873ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/Lock-Yellow.png using Guid(fe468cf565b1e114bb1b70dc1f873ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54d90df96b78b1bb62693ebae6b9aa1d') in 0.016920 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Art-Side/Ui/inkpx-word-art (2).png
+  artifactKey: Guid(8df253784fc7aff4e8b40a86404afe6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/inkpx-word-art (2).png using Guid(8df253784fc7aff4e8b40a86404afe6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f8540da870a2ffcfa0f470a6897180f') in 0.032575 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Art-Side/Ui/Icon_ColorIcon_Coins.png
+  artifactKey: Guid(084bec306628196429868dfb23ec3454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/Icon_ColorIcon_Coins.png using Guid(084bec306628196429868dfb23ec3454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3855c9adf1c95d1b0de25725e41f572c') in 0.041596 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Art-Side/Ui/InputFieldBackground.png
+  artifactKey: Guid(91f4e92d4e8d80c4e8dca85253bcbc6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/InputFieldBackground.png using Guid(91f4e92d4e8d80c4e8dca85253bcbc6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e762c7bf37b5070576914cdd8c61aaa') in 0.015648 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Art-Side/Ui/panel_shield-inside_yellow.png
+  artifactKey: Guid(4de6eb973c2b65e4eabb0007b23b552a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/panel_shield-inside_yellow.png using Guid(4de6eb973c2b65e4eabb0007b23b552a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc99103c499be140601635b7d8fd7716') in 0.125869 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Art-Side/Ui/CollectorTexture-Level50.png
+  artifactKey: Guid(674c0d8ac82507242bb0e8530ce3cfe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/CollectorTexture-Level50.png using Guid(674c0d8ac82507242bb0e8530ce3cfe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fddbec78adf20d44a96fd5144338bc94') in 0.039908 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Art-Side/Ui/Joystick_Skill01_Frame_Light.png
+  artifactKey: Guid(9887d95446d7bb9459f91b55d09da23d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/Joystick_Skill01_Frame_Light.png using Guid(9887d95446d7bb9459f91b55d09da23d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bc8e2ecee4ff6b5dba62f134e877630') in 0.018346 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Art-Side/Ui/label_rhomb_blue.png
+  artifactKey: Guid(480f77bd9ae2cad4d97275fa4d755858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/label_rhomb_blue.png using Guid(480f77bd9ae2cad4d97275fa4d755858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b60a872d079a31a4d387a7d862e2cea') in 0.019259 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Art-Side/Ui/CollectorTexture.png
+  artifactKey: Guid(6ab97007465290e459db23bad4ec2fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/CollectorTexture.png using Guid(6ab97007465290e459db23bad4ec2fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '600a5b1e9aa2b1574a90fbbfaf33668a') in 0.145445 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Art-Side/Ui/power-up-frame-autosort-purchase.png
+  artifactKey: Guid(901ea7783c3ca294b9bfcfe5a0994c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/power-up-frame-autosort-purchase.png using Guid(901ea7783c3ca294b9bfcfe5a0994c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1085e856739ccf2e021869bf31843de3') in 0.085698 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Art-Side/Ui/icon_twitter.png
+  artifactKey: Guid(0e36252423861bc428909c57c7b60141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/icon_twitter.png using Guid(0e36252423861bc428909c57c7b60141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfa9094e75388b1064ca83f4aee16a36') in 0.019715 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Art-Side/Ui/Knob.png
+  artifactKey: Guid(178600dc446778e41b844ecf715f553f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/Knob.png using Guid(178600dc446778e41b844ecf715f553f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8ffbb5e7e7990b98ed2fda5331278f6') in 0.017505 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Art-Side/Ui/Label_Tag01_Color_Blue.png
+  artifactKey: Guid(68ace8d5e9cad524eb96de01aefc63a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/Label_Tag01_Color_Blue.png using Guid(68ace8d5e9cad524eb96de01aefc63a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ab5ead076b7069c013b84dfede25d90') in 0.015421 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Art-Side/Ui/Label_Tag00_n_Gray.png
+  artifactKey: Guid(9dae6e11330d8ab49870695ebc00456b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/Label_Tag00_n_Gray.png using Guid(9dae6e11330d8ab49870695ebc00456b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8624c549cf0202c1c104ea50c7574e2') in 0.019230 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Art-Side/Ui/IconGroup_ShopIcon_Chest.png
+  artifactKey: Guid(88b7961821fcacd47a914947acd00a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/IconGroup_ShopIcon_Chest.png using Guid(88b7961821fcacd47a914947acd00a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1bfa03400b84af0e868f1d721c40ec5') in 0.125005 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art-Side/Ui/input.png
+  artifactKey: Guid(7e61b71b089e61746bcff45c119e0f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/input.png using Guid(7e61b71b089e61746bcff45c119e0f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a638bd1afc42cb9b3caf3b90b6b0d5c') in 0.043028 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Art-Side/Ui/chests 3.png
+  artifactKey: Guid(8b3530da2ae247544b5843ec3d8e5824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/chests 3.png using Guid(8b3530da2ae247544b5843ec3d8e5824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c6f589c2ce41b0c559137c5b61d4bd0') in 0.022168 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Art-Side/Ui/IconGroup_MenuIcon01_Book.png
+  artifactKey: Guid(b2ae166d02865ef44a9405c4bdb1f3fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/IconGroup_MenuIcon01_Book.png using Guid(b2ae166d02865ef44a9405c4bdb1f3fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fce8572031fbe9d1ce66cb8ab4156e4c') in 0.019436 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Art-Side/Ui/DeckUnlock.png
+  artifactKey: Guid(7904b8b71cb919e41b21718163b525b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/DeckUnlock.png using Guid(7904b8b71cb919e41b21718163b525b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfe448f58028bd749b71e22ef749b8b3') in 0.020898 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Art-Side/Ui/Icon_WhiteIcon_Close.png
+  artifactKey: Guid(983074daaa929fe40878aed1fab866eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/Icon_WhiteIcon_Close.png using Guid(983074daaa929fe40878aed1fab866eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f01b860120de860ea04aebe9f22cf216') in 0.015679 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Art-Side/Ui/Pineapple-Icon.png
+  artifactKey: Guid(ad86e24558f08eb4fbced5e7ce10275a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/Pineapple-Icon.png using Guid(ad86e24558f08eb4fbced5e7ce10275a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03ad002ae9973d949748a430db78f568') in 0.033166 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Art-Side/Ui/no-connection-8127342-6508150.png
+  artifactKey: Guid(34c6890601d754b428378522dd9b92d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/no-connection-8127342-6508150.png using Guid(34c6890601d754b428378522dd9b92d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7152a6a9e35721e877f779a348edf8f') in 0.124331 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Art-Side/Ui/icon_gift-blue.png
+  artifactKey: Guid(1e9dd9761612a554c9b944ffaa847c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/icon_gift-blue.png using Guid(1e9dd9761612a554c9b944ffaa847c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c6dcfd2ddd925e9ed4c3157b49276c2') in 0.018712 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Art-Side/Ui/Map Reward Pointer Empty 1.png
+  artifactKey: Guid(b4d1ab1c4789b2143b282f40201c3640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/Map Reward Pointer Empty 1.png using Guid(b4d1ab1c4789b2143b282f40201c3640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ced8fb0851e6702e5b7f5bc0fd2d9a8') in 0.071684 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Art-Side/Ui/IconGroup_ShopIcon_Coin_l_1.png
+  artifactKey: Guid(758a8a37505961a47852c81c6d115852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/IconGroup_ShopIcon_Coin_l_1.png using Guid(758a8a37505961a47852c81c6d115852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54e84902931ac01c6e75690b18cd377c') in 0.033139 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Art-Side/Ui/Notify_Count_s.png
+  artifactKey: Guid(a3f255526f47a8b4d917f338147f330b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/Notify_Count_s.png using Guid(a3f255526f47a8b4d917f338147f330b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93af065174ee74852a4046b840182f6e') in 0.015387 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Art-Side/Ui/machina_logo.png
+  artifactKey: Guid(911abc6af8d861a438b6600f298da910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/machina_logo.png using Guid(911abc6af8d861a438b6600f298da910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4173efcdb4be38cc2c38ceb15d3f2368') in 0.064837 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Art-Side/Ui/HomeButton.png
+  artifactKey: Guid(c9a43a1eeae203644b7a83cfaaa22138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/HomeButton.png using Guid(c9a43a1eeae203644b7a83cfaaa22138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f59169e3398ac4dad46313e8bdd51a48') in 0.016888 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Art-Side/Ui/gem_ui_sprite.png
+  artifactKey: Guid(b566d42e46f742c46ae7a2f544b1037b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/gem_ui_sprite.png using Guid(b566d42e46f742c46ae7a2f544b1037b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84103a99198e0ca1c3c99e5aaa7144f3') in 0.015583 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Art-Side/Ui/ListFrame10_White.png
+  artifactKey: Guid(fac4d4b49a9cca84d9676493675cca9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/ListFrame10_White.png using Guid(fac4d4b49a9cca84d9676493675cca9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84dc9e2a75a8cbda804a8064b99bd0c2') in 0.023444 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Art-Side/Ui/panel-inside_purple.png
+  artifactKey: Guid(168a457a675138b4f8092ce66f0aa2da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/panel-inside_purple.png using Guid(168a457a675138b4f8092ce66f0aa2da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edcc0183e50b2ef2ffc05957a11c0748') in 0.021821 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Art-Side/Ui/label_shield_yellow.png
+  artifactKey: Guid(8164790ed4592d249861efa49c865d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/label_shield_yellow.png using Guid(8164790ed4592d249861efa49c865d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8ce0d9e9d319fea69b455a27336db2d') in 0.020202 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Art-Side/Ui/Map Reward Pointer Empty - Pointer.png
+  artifactKey: Guid(03bd50fab79d61c4d86bb4d832e7322a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/Map Reward Pointer Empty - Pointer.png using Guid(03bd50fab79d61c4d86bb4d832e7322a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e598f2dce55506e020e6b5c921efcc2') in 0.025930 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Art-Side/Ui/delete.png
+  artifactKey: Guid(fbb15ea186f066e45b339db6b4a49f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/delete.png using Guid(fbb15ea186f066e45b339db6b4a49f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5432ed6962106ee7fb947a65817ed566') in 0.065699 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Art-Side/Ui/IconGroup_ShopIcon_Gems_s_5.png
+  artifactKey: Guid(144ff1806613b5d4e8f5f3e050e93790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/IconGroup_ShopIcon_Gems_s_5.png using Guid(144ff1806613b5d4e8f5f3e050e93790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9d7dc928633d09361377188c6ac32b1') in 0.031961 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Art-Side/Ui/power-up-frame-blast-inactive.png
+  artifactKey: Guid(ce1e3179151e43f4e8d6e873641ca1d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/power-up-frame-blast-inactive.png using Guid(ce1e3179151e43f4e8d6e873641ca1d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4b9c5710927e466b1679473aa7a21ee') in 0.018530 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Art-Side/Ui/CollectorTexture-Level5.png
+  artifactKey: Guid(09d8181a814906344a31b666fc8ba05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/CollectorTexture-Level5.png using Guid(09d8181a814906344a31b666fc8ba05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '543d518cdc2ddec62b722876a495da8a') in 0.228281 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Art-Side/Ui/Map_0003_2.png
+  artifactKey: Guid(4d7d69d724b12e14d8fb7c8faaa2cc08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/Map_0003_2.png using Guid(4d7d69d724b12e14d8fb7c8faaa2cc08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b82f9df5dc1616b122f67758a4e8eebf') in 0.079846 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Art-Side/Ui/loading_bg.png
+  artifactKey: Guid(f3bcab76e345e5a4990dbb0e94f80654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/loading_bg.png using Guid(f3bcab76e345e5a4990dbb0e94f80654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36f0db39419198a524c4afabe3f927f1') in 0.019834 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Art-Side/Ui/Icon_WhiteIcon_Best02.png
+  artifactKey: Guid(b41841b493a47a24fbd8161f283238c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/Icon_WhiteIcon_Best02.png using Guid(b41841b493a47a24fbd8161f283238c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f9d0e067b3e9c179ee9c8d0c24b4757') in 0.020932 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Art-Side/Ui/Frame_Circle_101_Border.png
+  artifactKey: Guid(d2b8f3bd1a8ad934aac7d1eeae4928bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/Frame_Circle_101_Border.png using Guid(d2b8f3bd1a8ad934aac7d1eeae4928bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e32f411519b948d6685751409900152b') in 0.020010 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Art-Side/Ui/Lightmap-1_comp_light.png
+  artifactKey: Guid(6b56973e38dde0c428a2dbb01eb939d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/Lightmap-1_comp_light.png using Guid(6b56973e38dde0c428a2dbb01eb939d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7642ac8ad52e83532377d76dfd25ebea') in 0.113914 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Art-Side/Ui/Icon_ColorIcon_CoinPouch.png
+  artifactKey: Guid(3a2ddf6c8d6788f4bb751a05ec410932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/Icon_ColorIcon_CoinPouch.png using Guid(3a2ddf6c8d6788f4bb751a05ec410932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67b9386e58cb7cc1ccfdff2ee26bb2ed') in 0.024713 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Art-Side/Ui/power-up-frame-rainbow-purchase.png
+  artifactKey: Guid(f40902de39e809d4a84ed38b9a7b5dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/power-up-frame-rainbow-purchase.png using Guid(f40902de39e809d4a84ed38b9a7b5dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea0bfd9ae392bbd92e7f1754012332bc') in 0.019183 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Art-Side/Ui/New Boards.png
+  artifactKey: Guid(ed822547a71b9114d8b2eeb18480fe46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/New Boards.png using Guid(ed822547a71b9114d8b2eeb18480fe46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95b0c7fca34c96fd7bbdcb8560edbb45') in 0.031846 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Art-Side/Ui/Icon_Star.png
+  artifactKey: Guid(2442dd337e858004bad1fb2ae39a4420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/Icon_Star.png using Guid(2442dd337e858004bad1fb2ae39a4420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2a7d861cec2edc1a03a74c064f24346') in 0.109002 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art-Side/Ui/Lightmap-0_comp_dir.png
+  artifactKey: Guid(faa0c26b889c98e4ca41acf200beca45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/Lightmap-0_comp_dir.png using Guid(faa0c26b889c98e4ca41acf200beca45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c9f15782d66b7959ff0be1ab7a0a15b') in 0.190140 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Art-Side/Ui/loading_bar_small-purple.png
+  artifactKey: Guid(033c51ca8156335458c4d7681581179f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/loading_bar_small-purple.png using Guid(033c51ca8156335458c4d7681581179f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '388744ffc58382c397331c5fdb3b63d9') in 0.020860 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Art-Side/Ui/Icon_ColorIcon_Block.png
+  artifactKey: Guid(92938546e18774b408f0fad2e5ed94c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/Icon_ColorIcon_Block.png using Guid(92938546e18774b408f0fad2e5ed94c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31a865c341efaf4628d9e57111ddc588') in 0.020609 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Art-Side/Ui/lightning2.png
+  artifactKey: Guid(f9066d53194eaab458980f3a276955c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/lightning2.png using Guid(f9066d53194eaab458980f3a276955c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea81ea4a699aabe2f5d8476dbf30334b') in 0.048092 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Art-Side/Ui/Popup01_Frame3_gray.png
+  artifactKey: Guid(9df64d53b302c2d4c9a6483795c40f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/Popup01_Frame3_gray.png using Guid(9df64d53b302c2d4c9a6483795c40f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62af015337116954d07c0db48a72c8e7') in 0.017205 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Art-Side/Ui/Large02.png
+  artifactKey: Guid(422d128089c557d4192694a32a5cdeca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/Large02.png using Guid(422d128089c557d4192694a32a5cdeca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9111018c9b2d86d2103b47f3bef2b529') in 0.054425 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Art-Side/Ui/Lightmap-0_comp_light.png
+  artifactKey: Guid(7497978de265f024692d297b6b75a447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/Lightmap-0_comp_light.png using Guid(7497978de265f024692d297b6b75a447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '452c83a76dde178a60ee90c66ae127e4') in 0.439831 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Art-Side/Ui/ChestRank4.png
+  artifactKey: Guid(f50fe12d9bd8ce44f8b3f54a7458fe88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art-Side/Ui/ChestRank4.png using Guid(f50fe12d9bd8ce44f8b3f54a7458fe88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a55c70b45d03769c7df6f8147fc8df7') in 0.025315 seconds 
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
