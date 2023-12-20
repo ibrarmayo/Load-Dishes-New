@@ -155,7 +155,7 @@ Material:
     - _OutlinePixelSizeType: 0
     - _OutlineTextureLOD: 5
     - _OutlineTextureType: 0
-    - _OutlineWidth: 1
+    - _OutlineWidth: 0.44
     - _Parallax: 0.005
     - _QueueOffset: 0
     - _RampBands: 4
@@ -202,7 +202,7 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0.68315876, b: 0, a: 1}
+    - _BaseColor: {r: 1, g: 0.66745543, b: 0.16470587, a: 1}
     - _Color: {r: 1, g: 0.6831587, b: 0, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _HColor: {r: 1, g: 1, b: 1, a: 1}
