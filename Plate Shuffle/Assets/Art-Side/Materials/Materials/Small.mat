@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Area wood
+  m_Name: Small
   m_Shader: {fileID: 4800000, guid: 7ffc1bc2bbb1ef64f84b552b2d2f0619, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -41,8 +41,8 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: 6696521009577c84581f7ce2666e2e4b, type: 3}
-        m_Scale: {x: 1, y: 10}
+        m_Texture: {fileID: 2800000, guid: 8de39e1bbc2f5414c80087475d0fa2de, type: 3}
+        m_Scale: {x: 2.5, y: 4.3}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
         m_Texture: {fileID: 0}
@@ -210,7 +210,7 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0.9433962, g: 0.752074, b: 0.5740477, a: 1}
+    - _BaseColor: {r: 0.8901961, g: 0.9647059, b: 1, a: 1}
     - _Color: {r: 0.9433962, g: 0.91224635, b: 0.91224635, a: 1}
     - _EmissionColor: {r: 0.509434, g: 0.509434, b: 0.509434, a: 1}
     - _HColor: {r: 1, g: 1, b: 1, a: 1}
